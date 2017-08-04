@@ -4,7 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>mydocker</groupId>
-    <artifactId>gs-rest-service</artifactId>
+    <artifactId>openshift-hello-world</artifactId>
+    <packaging>jar</packaging>
     <version>1.7</version>
 
     <parent>
