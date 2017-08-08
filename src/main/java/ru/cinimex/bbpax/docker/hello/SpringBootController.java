@@ -16,7 +16,8 @@ public class SpringBootController {
     @RequestMapping(path = "/hello", method= RequestMethod.GET)
     public @ResponseBody
     String home() {
-        return "Hello Docker World";
+        return "Hello World from *.openshift.vm.cmx.ru. \n" +
+                "made with Jenkins";
     }
 
     public static void main(String[] args) {
